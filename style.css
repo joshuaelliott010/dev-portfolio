@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+header, main, footer {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+header h1 {
+  margin: 0;
+}
+.dark-mode {
+  background: #121212;
+  color: #f0f0f0;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+}
